@@ -6,6 +6,12 @@
 
 - [Ayoub ZGUAID](https://github.com/zguaid)
 
+## Guide d'utilisation
+
+Vous trouverez une vidéo de présentation du projet sur l'URL suivant : [Vidéo de démo](https://www.loom.com/share/d7b146006ef745158b6b08a83e629188)
+
+Vous trouverez une version Vercel en ligne [Version en ligne](https://voting-qyck1gxrh-zguaid.vercel.app/)
+
 ## Démarrage
 
 Les instructions suivantes vous permettrons d'installer le projet :
@@ -24,16 +30,6 @@ Les instructions suivantes vous permettrons d'installer le projet :
 - Lancer le client : 
 ```npm run start```
 - Rendez-vous sur votre http://localhost:3000/ pour interagir avec votre contrat
-
-## Guide d'utilisation
-
-Vous trouverez une vidéo de présentation du projet sur l'URL suivant : [Vidéo de démo](https://www.loom.com/share/d7b146006ef745158b6b08a83e629188)
-
-Vous trouverez une version Vercel en ligne [ici](https://voting-qyck1gxrh-zguaid.vercel.app/)
-
-### Progression
-
-Livré  🚀
 
 ### Visual Studio Code  🖥️
 
