@@ -1,40 +1,44 @@
-# React Truffle Box
+# Alyra - Parcours Développeur.se Blockchain
 
-This box comes with everything you need to start using Truffle to write, compile, test, and deploy smart contracts, and interact with them from a React app.
+📌  Créer une Dapps de vote construite autour du smart contract voting_contract
 
-## Installation
+## Contributeurs
 
-First ensure you are in an empty directory.
+- [Ayoub ZGUAID](https://github.com/zguaid)
 
-Run the `unbox` command using 1 of 2 ways.
+## Démarrage
 
-```sh
-# Install Truffle globally and run `truffle unbox`
-$ npm install -g truffle
-$ truffle unbox react
-```
+Les instructions suivantes vous permettrons d'installer le projet :
+- Cloner le projet avec ligne de commande suivante : 
+```npm clone https://github.com/zguaid/VotingApp```
+- Installer les dépendances de test et de solidity, dans le dossier racince du projet : 
+```npm install ```
+- Installer les dépendances react, dans le dossier client du projet : 
+```npm install```
+- Lancer le déploiement de la Dapps, modifiez le fichier truffle-config.js avec le network approprié
+- Pour déployer hors ganache, pensez à renseigner dans un fichier .env les variables environnement suivante :
+```MNEMONIC```
+```INFURA_ID```
+- Lancez ensuite la migration avec la commande : 
+```truffle migrate --network 'votre network'```
+- Lancer le client : 
+```npm run start```
+- Rendez-vous sur votre http://localhost:3000/ pour interagir avec votre contrat
 
-```sh
-# Alternatively, run `truffle unbox` via npx
-$ npx truffle unbox react
-```
+## Guide d'utilisation
 
-Start the react dev server.
+Vous trouverez une vidéo de présentation du projet sur l'URL suivant : [Vidéo de démo](https://www.loom.com/share/d7b146006ef745158b6b08a83e629188)
 
-```sh
-$ cd client
-$ npm start
-  Starting the development server...
-```
+Vous trouverez une version Vercel en ligne [ici](https://voting-qyck1gxrh-zguaid.vercel.app/)
 
-From there, follow the instructions on the hosted React app. It will walk you through using Truffle and Ganache to deploy the `SimpleStorage` contract, making calls to it, and sending transactions to change the contract's state.
+### Progression
 
-## FAQ
+Livré  🚀
 
-- __How do I use this with Ganache (or any other network)?__
+### Visual Studio Code  🖥️
 
-  The Truffle project is set to deploy to Ganache by default. If you'd like to change this, it's as easy as modifying the Truffle config file! Check out [our documentation on adding network configurations](https://trufflesuite.com/docs/truffle/reference/configuration/#networks). From there, you can run `truffle migrate` pointed to another network, restart the React dev server, and see the change take place.
+### Langage : Solidy, JS
 
-- __Where can I find more resources?__
+### Framework : Truffle unbox React 
 
-  This Box is a sweet combo of [Truffle](https://trufflesuite.com) and [Create React App](https://create-react-app.dev). Either one would be a great place to start!
+### Network : Ganache, Goerli
